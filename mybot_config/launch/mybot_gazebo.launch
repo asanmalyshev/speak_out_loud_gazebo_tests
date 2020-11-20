@@ -43,8 +43,6 @@
         <arg name="world" value="mybot"/>
         <arg name="X" value="-1"/>
         <arg name="Y" value="-1"/>
-        <!-- <arg name="X" value="&#45;1.25"/> -->
-        <!-- <arg name="Y" value="&#45;0.25"/> -->
         <arg name="YAW" value="1"/>
     </include>
     

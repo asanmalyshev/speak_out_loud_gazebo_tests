@@ -1,0 +1,10 @@
+<launch>
+  <arg name="debug" default="false"/>
+
+  <include file="$(find speak_out_loud)/launch/speak_out_loud.launch">
+    <arg name="debug" value="$(arg debug)"/>
+  </include>
+
+  <include file="$(find mybot_config)/launch/mybot_gazebo.launch"/>
+  <node name="mybot_speak_out_loud" pkg="mybot_speak_out_loud" type="mybot_speak_out_loud.py" output="screen"/>
+</launch>
